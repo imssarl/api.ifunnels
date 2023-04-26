@@ -2,7 +2,7 @@
 class Project_Thechecker {
 	
 	protected $apiUrl='https://api.thechecker.co/v1/';
-	private $_apiKey='e08ca53cbcbfdc409750756314fb3f4514cf0013d2210c3a0a06cc1b5f7fdd21';
+	private $_apiKey='';
 	
 	private $flgTest=false;
 	
