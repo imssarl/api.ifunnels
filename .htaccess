@@ -1,0 +1,22 @@
+#php_value error_reporting "error_reporting = E_ALL & ~E_NOTICE"
+#php_value session.name "sid"
+# no escaping params
+#php_value upload_max_filesize 10M
+#php_value post_max_size 10M
+#php_flag magic_quotes_gpc Off
+#php_flag display_errors Off
+#php_value error_reporting "E_ALL | E_NOTICE | E_STRICT"
+#php_value xdebug.profiler_enable 1
+#php_value xdebug.profiler_output_dir "d:\www\dev\cnm\xdebug"
+#php_value xdebug.profiler_output_name "profile.%s.xp"
+#php_value xdebug.var_display_max_depth 20
+#test
+# fake urls support
+#CGIPassAuth on
+RewriteEngine On
+RewriteCond %{HTTP:Authorization} .
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteCond %{REQUEST_URI} ^\/docs/[^\.]*$
+RewriteRule ^(.*)$ /docs/index.html [L]
+RewriteCond %{HTTP_HOST}%{REQUEST_URI} \/[^\.]*$
+RewriteRule ^(.*)$ /index.php [L]

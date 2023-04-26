@@ -1,0 +1,288 @@
+@charset "utf-8";
+/* 	Control Panel Version 2.0 Designed by www.BeyondDesigning.com
+	� 2008 JP Schoeffel @ All Rights Reserved.
+  	Please Do not leech this code without written permission from JP Schoeffel */
+/* Table of Contents:
+	Global
+	Typography
+	Images
+	Header
+	Navigation
+	Main Content
+	Footer
+	
+*/
+/* Global, Typography, Images
+--------------------------------------------------------------------------------------- */
+.error {
+	color: #FF0033;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+ 
+body,html  {
+	margin: 0;
+	padding: 0;
+	background: #ffffff url() top left repeat-x;
+	color: #000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.a1:link, .a1:visited  {
+	color: #999;
+	text-decoration: none;
+}
+
+.a1:hover  {
+	color: #00b4ff;
+	text-decoration: none;
+}
+
+img {
+	border: 0;
+}
+
+/* Header
+--------------------------------------------------------------------------------------- */
+#header  {
+	height: 154px;
+	width: 100%;
+	margin: 0 auto;
+	background: url(../images/header_back.jpg) top left repeat-x;
+}
+
+	
+#head_inside {
+	width: 365px;
+	margin: 0 auto;
+	height: 154px;
+	float: left;
+	margin-left: 5px;
+	background: url(../images/logo.jpg) top left no-repeat;
+}
+
+#head_news {
+	width: 420px;
+	margin: 0 auto;
+	float: right;
+	margin-right: 10px;
+	color: #ffffff;
+	padding-top: 20px;
+}
+
+/* Navigation
+--------------------------------------------------------------------------------------- */
+#navigation {
+	margin: 0 auto;
+	text-align: center;
+	padding: 0px; /* 	margin-bottom:10px; */
+	width: 100%;
+	height: 110px;
+	background: url(../images/navbar.jpg) top left repeat-x;
+	font-size: 11px;
+	letter-spacing: -1px;
+}
+
+#nav_flower {
+	width: 279px;
+	margin: 0 auto;
+	height: 110px;
+	float: right;
+	margin-right: 5px;
+	background: url(../images/nav_flower.jpg) top right no-repeat;
+}
+
+#navigation ul {
+	margin: 0 auto;
+	list-style-type: none;
+	line-height: normal;
+	padding-left: 5px;
+	padding-right: 5px; /* 	height:110px; */
+}
+
+#navigation li {
+	float: left;
+	margin-top: 0px;
+	list-style: none;
+	border-right: 1px #777777 solid;
+	text-align: left; /* 	display:inline; */
+}
+
+#navigation a:link, #navigation a:visited {
+	padding: 12px 25px 12px 25px;
+	color: #ffffff;
+	display: block; /* 	height: 110px; */
+	text-decoration: none;
+	background: #4e4f51;
+	float: left;
+}
+
+#navigation a:hover, #navigation .active a {
+	color: #fff;
+	text-decoration: none;
+	background: #0682c2;
+	display: block;
+	float: left;
+}
+
+#navigation .active a:hover {
+	color: #f1f1f1;
+	text-decoration: none;
+	background: #93ae33;
+	display: block;
+	float: left;
+}
+
+/* Main Content
+--------------------------------------------------------------------------------------- */
+#wrap {
+	width: 940px;
+	height: auto;
+	margin: 0 auto;
+}
+
+#wrap_left {
+	width: 455px;
+	height: auto;
+	float: left;
+	padding: 5px;
+}
+
+#wrap_right {
+	width: 455px;
+	height: auto;
+	float: right;
+	padding: 5px;
+}
+
+.left {
+	width: 455px;
+	height: auto;
+	float: left;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.right {
+	width: 455px;
+	height: auto;
+	float: right;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.left h2, .right h2 {
+	height: 15px;
+	padding: 3px 0 2px 0;
+	text-align: center;
+	background: url(../images/title_back.jpg) top left repeat-x;
+	margin: 0 auto;
+	font: 12px Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.left:hover h2, .right:hover h2 {
+	background: url(../images/title_hover.jpg) top left repeat-x;
+	color: #FFFFFF;
+}
+
+.inside {
+	width: 452px;
+	height: auto;
+	float: left;
+	margin: 0px auto 10px 0;
+	padding: 0 0 10px 0;
+	border: 1px #f1f6f8 solid;
+	border-top: 0;
+	text-align: center;
+}
+
+.inside ul {
+	padding: 0px;
+	margin: 0 auto;
+	list-style: none;
+}
+
+.inside li {
+	float: left;
+	list-style: none;
+	margin: 0 auto 0 auto;
+	width: 90px;
+	padding: 10px 0 0 0;
+	display: block;
+	height: 90px;
+}
+
+.inside li:hover {
+	padding: 8px 0 0 0;
+}
+
+.inside img {
+	margin: 0 auto 5px auto;
+	border: 0;
+}
+
+.inside span {
+	padding: 0px;
+	margin: 0 auto;
+	clear: both;
+}
+
+.left:hover .inside, .right:hover .inside {
+	border: 1px #dedede solid;
+	border-top: 0;
+}
+
+/* Footer
+--------------------------------------------------------------------------------------- */
+#footer {
+	background: url(../images/foot_back.jpg) bottom left repeat-x;
+	height: 211px;
+	width: 100%;
+	clear: both;
+}
+
+#flower {
+	background: url(../images/foot_flower.jpg) top left no-repeat;
+	width: 100%;
+	height: 199px;
+	float: left;
+	color: #FFFFFF;
+}
+
+#foot {
+	width: 900px;
+	height: auto;
+	margin: 0 auto;
+}
+
+#foot a {
+	color: #f4f4f4;
+}
+
+#foot a:hover {
+	color: #fff;
+	border-bottom: 1px #CCCCCC dotted;
+	cursor: help;
+}
+
+#flower .left {
+	float: left;
+	width: 50%;
+	color: #ffffff;
+	padding-top: 112px;
+}
+
+#flower .right {
+	float: right;
+	text-align: right;
+	width: 50%;
+	color: #ffffff;
+	padding-top: 112px;
+}
+
+/* END
+--------------------------------------------------------------------------------------- */

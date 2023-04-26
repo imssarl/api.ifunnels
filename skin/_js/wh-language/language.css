@@ -1,0 +1,12 @@
+.wh-lang-tab {padding:0px 3px 0 3px; }
+.wh-lang-tab a { padding:0;  margin:0 1px 0 0; font-size:12px;}
+.wh-lang-tab a.wh-lang-active {}
+.wh-lang-tab a img { margin:0 0px 0 1px; padding:0px; }
+
+
+.wh-lang-tab a.wh-lang-empty img{ border:2px solid #CCC; border-top:1px solid #CCC;}
+.wh-lang-tab a.wh-lang-default img{ border:2px solid #66FF00; border-top:1px solid #66FF00;}
+.wh-lang-tab a.wh-lang-noempty img{ border:2px solid #66FF00; border-top:1px solid #66FF00;}
+.wh-lang-tab a.wh-lang-active img{ border:2px solid #444; border-top:1px solid #444;}
+
+input.wh-lang-input{ border:1px solid #444	 !important; }

@@ -1,0 +1,5 @@
+/compiled/*
+/usersdata/temp/cache/*
+/usersdata/users/*
+/doc/
+github.php

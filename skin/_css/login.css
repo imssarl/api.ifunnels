@@ -1,0 +1,63 @@
+
+/* Login
+--------------------------------------------------------------------------------------- */
+#wrap {
+	position: relative;
+	min-height: 50%;
+}
+
+* html #wrap {
+	height: 100%;
+}
+
+#message {
+	width: 200px;
+	height: 22px;
+	margin: 0 auto 10px auto;
+	padding: 10px 20px 0 100px;
+	background: url(/skin/i/frontends/design/login/text.jpg) top center no-repeat;
+	font: 11px Verdana, Arial, Helvetica, sans-serif;
+	color: #333333;
+}
+
+#panel {
+	width: 420px;
+	height: 200px;
+	margin: 0 auto 10px auto;
+	background: url(/skin/i/frontends/design/login/panel.jpg) top center no-repeat;
+}
+
+#panel input {
+	width: 205px;
+	height: 24px;
+	margin: 0 auto;
+	background: url(/skin/i/frontends/design/login/textarea.png) top center no-repeat;
+	border: 0;
+	padding: 0px 20px 0 20px;
+	font: 10px Verdana, Arial, Helvetica, sans-serif;
+}
+
+#panel input.button {
+	width: 86px;
+	height: 29px;
+	background: url(/skin/i/frontends/design/login/button.png) top center no-repeat;
+	border: 0;
+	margin: 8px 20px 0 70px;
+	padding: 0;
+	font: 10px Verdana, Arial, Helvetica, sans-serif;
+}
+
+#panel input.button:hover {
+	background: url(/skin/i/frontends/design/login/button_hover.png) top center no-repeat;
+}
+
+#panel form {
+	width: 320px;
+	height: 110px;
+	margin: 0 auto;
+	border: 0;
+	padding: 50px 0 0 80px;
+}
+
+/* END
+--------------------------------------------------------------------------------------- */

@@ -1,0 +1,5 @@
+ol.cloud { font-size: 1.0em; margin-left:-4px;padding-left:0;width: 600px; }
+ol.cloud li { display:inline; padding: 2px 5px; }
+ol.cloud li.hidden { padding: 2px 1px; }
+ol.cloud li a {color:#314FBF;text-decoration:underline;}
+ol.cloud li a:hover {color:#CC3300;text-decoration:underline;}

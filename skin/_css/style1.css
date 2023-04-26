@@ -1,0 +1,581 @@
+table.summary_art{
+	background-color: #ffffff;
+	vertical-align: top;
+	border-spacing: 2px 2px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #A2A2A2;
+	border-right-color: #A2A2A2;
+	border-bottom-color: #A2A2A2;
+	border-left-color: #A2A2A2;
+}
+
+table.synonyms{
+	background-color: #ffffff;
+	vertical-align: top;
+	border-spacing: 2px 2px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #A2A2A2;
+	border-right-color: #A2A2A2;
+	border-bottom-color: #A2A2A2;
+	height: 100%;
+	width: 30%;
+	border-left-color: #A2A2A2;
+}
+
+.article_textarea{
+	border: 5px solid #cccccc;
+	padding: 5px;
+	width: 100%;
+}
+
+.sub{
+	color: #333333;
+	font: arial,verdana,tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #E4E4E4;
+	height: 30px;
+	width: 180px;
+	border: 1px 1   #CCCCCC;
+	cursor: pointer;
+}
+
+.head_article{
+	color: #000000;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 12px;
+}
+
+td.heading_1{
+	font: arial,verdana,tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: left;
+	color: #ffffff;
+	background-color: #696969;
+	line-height: 20px;
+	padding-left: 15px;
+	text-decoration: none;
+}
+
+.menu_1:link{
+	font: arial,verdana,tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+	text-decoration: underline;
+}
+
+.menu_1:visited{
+	font: arial,verdana,tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+	text-decoration: underline;
+}
+
+.menu_1:hover{
+	font: arial,verdana,tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	color: #00b4ff;
+	text-decoration: underline;
+}
+
+.menu_1:active{
+	font: arial,verdana,tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+	text-decoration: underline;
+}
+
+.legend{
+	font-size: 9px;
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	border: 0px solid #000000;
+}
+
+.legcol0{
+	color: #000000;
+	text-align: center;
+}
+
+.legcol1{
+	color: #2CDE08;
+	text-align: center;
+}
+
+.legcol2{
+	color: #0B1CB6;
+	text-align: center;
+}
+
+.legcol3{
+	color: #FF0C0C;
+	text-align: center;
+}
+
+.legend td{
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #A2A2A2;
+	border-right-color: #A2A2A2;
+	border-bottom-color: #A2A2A2;
+	border-left-color: #A2A2A2;
+}
+
+input.normal{
+	font-size: 11px;
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	border: 0px solid #000000;
+	padding: 1px;
+}
+
+table.inputform{
+	background-color: #ffffff;
+	vertical-align: top;
+	border-spacing: 2px 5px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+table.summary{
+	background-color: #ffffff;
+	vertical-align: top;
+	border-spacing: 2px 2px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #A2A2A2;
+	border-right-color: #A2A2A2;
+	border-bottom-color: #A2A2A2;
+	border-left-color: #A2A2A2;
+}
+
+table.summary2{
+	background-color: #ffffff; /* Diff:wdith is removed */
+	vertical-align: top;
+	border-spacing: 2px 2px;
+	margin-left: auto;
+	margin-right: auto;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #A2A2A2;
+	border-right-color: #A2A2A2;
+	border-bottom-color: #A2A2A2;
+	border-left-color: #A2A2A2;
+}
+
+th{
+	background-color: #696969;
+	color: #FFFFFF;
+}
+
+th a:hover{
+	color: #00b4ff;
+}
+
+th a{
+	color: #FFFFFF;
+}
+
+span a:hover{
+	color: #FF0000;
+}
+
+span a{
+	color: #0099FF;
+}
+
+a:hover{
+	color: #00b4ff;
+}
+
+a{
+	color: #000000;
+}
+
+.backcolor1{
+	background-color: #F4F4F4;
+}
+
+.backcolor2{
+	background-color: #FFFFFF;
+}
+
+.backcolor3{
+	background-color: #99CCFF;
+}
+
+td.caption{
+	text-align: right;
+	width: 40%;
+}
+
+td.heading{
+	font: arial,verdana,tahoma;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: center;
+	color: #ffffff;
+	background-color: #696969;
+	line-height: 20px;
+	text-decoration: none;
+}
+
+.menu:link{
+	font: arial,verdana,tahoma;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: center;
+	color: #ffffff;
+	line-height: 20px;
+	text-decoration: none;
+}
+
+.menu:visited{
+	font: arial,verdana,tahoma;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: center;
+	color: #ffffff;
+	line-height: 20px;
+	text-decoration: none;
+}
+
+.menu:hover{
+	font: arial,verdana,tahoma;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: center;
+	color: #00b4ff;
+	line-height: 20px;
+	text-decoration: none;
+}
+
+.menu:active{
+	font: arial,verdana,tahoma;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: center;
+	color: #ffffff;
+	line-height: 20px;
+	text-decoration: none;
+}
+
+div.message{
+	text-align: center;
+	background-color: #FFFFFF;
+	color: #FF0909;
+	line-height: 20px;
+}
+
+table.linkcontainer td{
+	background-color: #000000;
+	filter: alpha(opacity=70);
+	opacity: .7;
+	-moz-opacity: .7;
+}
+
+td.logo_area{
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+}
+
+td.version_info{
+	font-size: 9px;
+}
+
+td.middle_spacer{
+	width: 800px;
+	background-color: #666666;
+}
+
+td.shadow_right{
+	background-repeat: repeat-y; /*	background-image:url(../images_template1/border_shadow_l.jpg);*/
+	background-position: left;
+}
+
+td.shadow_left{
+	background-repeat: repeat-y; /*	background-image:url(../images_template1/border_shadow_r.jpg);*/
+	background-position: right;
+}
+
+td.body_content{
+	padding: 5px; /*	background-image:url(../images_template1/bg_content.jpg);*/
+	background-repeat: repeat;
+}
+
+td.below_header{
+	background-color: #1F1F1F;
+	height: 50px;
+	color: #CCCCCC;
+	padding: 5px;
+}
+
+td.main_content_box{
+	background-color: #FFFFFF;
+	vertical-align: top;
+}
+
+td.horizontal_column{
+	background-color: #000000;
+	border-top-width: 15px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #000000;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #000000;
+	height: 150px;
+	display: table-cell;
+	vertical-align: top;
+}
+
+td.bottom_link_container{
+	background-color: #000000;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 5px;
+}
+
+td.horizontal_center{
+	background-color: #333333;
+	border-top-width: 1px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #000000;
+	border-right-color: #333333;
+	border-bottom-color: #000000;
+	border-left-color: #333333; /*	height:150px;*/
+	display: table-cell;
+	vertical-align: top; /*	background-image:url(../images_template1/header_bg.jpg);*/
+}
+
+td.header_column{
+	height: 100px;
+	vertical-align: middle;
+	color: #FFFFFF;
+	font-size: large;
+	background-image: url(../images/header.jpg);
+	background-position: top;
+}
+
+td.left_content{
+	width: 200px;
+	padding: 5px;
+	vertical-align: top; /*	background-image:url(../images_template1/bg_content.jpg);*/
+	background-repeat: repeat;
+}
+
+a.main_link:active,a.main_link:visited,a.main_link:link{
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	color: #FFFFFF;
+	line-height: 25px;
+}
+
+a.main_link:hover{
+	background-color: #333333;
+	color: #FFFFFF;
+}
+
+a.bottom_link:active,a.bottom_link:visited,a.bottom_link:link{
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+a.bottom_link:hover{
+	color: #CCCCCC;
+}
+
+div.bottom_content{
+	color: #FFFFFF;
+	padding: 5px;
+}
+
+div.navigation{
+	height: 25px;
+	vertical-align: middle;
+	text-align: left;
+}
+
+div.lnk{
+	display: inline;
+	color: #000000;
+	text-align: center;
+}
+
+div.lnk:hover{
+	color: #FF055D;
+	cursor: pointer;
+}
+
+.noshow{
+	display: none;
+}
+
+.show{
+	display: block;
+}
+
+.showil{
+	display: inline;
+}
+
+.menurow{
+	background: #333333;
+}
+
+.textarea{
+	font-size: 11px;
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	border: 1px solid #000000;
+	padding: 1px;
+	width: 99%;
+	height: 400px;
+}
+
+/* from style.css old */
+.tablematter1{
+	background-color: #F4F4F4;
+}
+
+.tablematter2{
+	background-color: #FFFFFF;
+}
+
+.tablematter3{
+	background-color: #99CCFF;
+}
+
+.message{
+	color: #FF0000;
+}
+
+.messagebox{
+	background-color: #B0ECFF;
+	width: 60%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.messwindow{
+	background-color: #B0ECFF;
+	width: 100%;
+	text-align: left;
+	vertical-align: middle;
+}
+
+/* CSS for Cpanel Index Page */
+.menu_cpanel:link {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.menu_cpanel:visited {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.menu_cpanel:hover {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	color: #CCCCCC;
+	text-decoration: none;
+}
+
+.hading_cpanel	 {
+	font-size: 12px;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding-left: 25px;
+	padding-top: 5px;
+}
+
+.tableborder_cpanel {
+	border: 1px solid #333333;
+}
+
+.success-message{
+	background-color: #003964;
+	font: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 1.5em;
+	border: 1px dashed #000000;
+	text-align: center;
+	color: #FFFFFF;
+	margin: 10px 0 15px 0;
+}
