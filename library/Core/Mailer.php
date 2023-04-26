@@ -23,7 +23,7 @@ class Core_Mailer extends Zend_Mail implements Core_Singleton_Interface {
 
 	private $_mailSubject='no subject';
 
-	private $_apiKey = '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';
+	private $_apiKey = '';
 
 	public function __construct(){
 		$this->config=Zend_Registry::get( 'config' );
