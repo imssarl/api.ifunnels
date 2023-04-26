@@ -29,9 +29,9 @@ class Core_Users implements Core_Singleton_Interface {
 	 * @var array
 	 */
 	private static $_rootUser=array(
-		'email'=>'cadmin@api.info',
-		'nickname'=>'cadmin',
-		'passwd'=>'J^H&TUUYf3e565',
+		'email'=>'YOUREMAIL',
+		'nickname'=>'change',
+		'passwd'=>'password',
 		'flg_active'=>1,
 	);
 
